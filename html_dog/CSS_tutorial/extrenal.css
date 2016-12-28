@@ -13,16 +13,13 @@ h1 {
 body {
     font-size: 14px;
     color: darkslategray;
-    background: white url(https://s-media-cache-ak0.pinimg.com/originals/11/e0/55/11e05545c68ac2988da8ecfa551e8b59.jpg) no-repeat top right;
+    background: white url(https://s-media-cache-ak0.pinimg.com/originals/11/e0/55/11e05545c68ac2988da8ecfa551e8b59.jpg) no-repeat;
 }
 
 p {
     font-style: italic;
     font-weight: bold;
     text-align: justify;
-    border-width: 1px;
-    border-color: red;
-    border-style: solid;
 }
 
 /*  The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.  */
@@ -69,4 +66,21 @@ input:focus, textarea:focus {
 p:first-child {
     font-weight: bold;
     font-size: 40px;
+}
+
+p::first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+#navigation {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 200px;
+    float: right;
 }
