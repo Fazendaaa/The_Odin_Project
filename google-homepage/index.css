@@ -9,31 +9,30 @@
 #left {
     position: fixed;
     left: 1%;
+    padding: 10px 10px 10px 5px;
 }
 
 #right {
     position: fixed;
     right: 1%;
+    padding: 10px 10px 10px 5px;
 }
 
 .center {
-    position: fixed;
+    position: absolute;
     margin-left: 35%;
     top: 35%;
 }
 
 .header {
     top: 0;
-    width: auto;
     height: 42px;
     border-bottom: 1px solid #C5CAE9;
 }
 
 .footer {
-    bottom: 3%;
-    width: auto;
+    bottom: 5%;
     position: fixed;
-    border-style: solid;
 }
 
 body {
