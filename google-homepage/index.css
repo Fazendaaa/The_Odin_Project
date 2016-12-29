@@ -1,5 +1,38 @@
 #logo {
     width: 50%;
     height: 50%;
-    text-align: center;
+}
+
+#search {
+    
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+.center {
+    position: fixed;
+    margin-left: 35%;
+    top: 35%;
+}
+
+.header {
+    position: absolute;
+    top: 15px;
+    width: auto;
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    width: auto;
+}
+
+a {
+    
 }
