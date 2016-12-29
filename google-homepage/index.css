@@ -1,18 +1,19 @@
+@import "syle.css" style-1;
+
 #logo {
     width: 50%;
     height: 50%;
-}
-
-#search {
-    
+    padding: 20px 20px 20px 20px;
 }
 
 #left {
-    left: 0;
+    position: fixed;
+    left: 1%;
 }
 
 #right {
-    right: 0;
+    position: fixed;
+    right: 1%;
 }
 
 .center {
@@ -22,17 +23,42 @@
 }
 
 .header {
-    position: absolute;
-    top: 15px;
+    top: 0;
     width: auto;
+    height: 42px;
+    border-bottom: 1px solid #C5CAE9;
 }
 
 .footer {
-    position: absolute;
-    bottom: 15px;
+    bottom: 3%;
     width: auto;
+    position: fixed;
+    border-style: solid;
+}
+
+body {
+    
 }
 
 a {
-    
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+input {
+    font-size: 18px;
+    color: #006064;
+    display: block;
+    padding: 10px 10px 10px 5px;
+    width: 55%;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+input[type=submit] {
+    background-color: #B2EBF2;
+}
+
+input:focus { 
+    outline: none;
 }
